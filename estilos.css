@@ -1,0 +1,43 @@
+body{margin: 0; padding: 0;}
+header, footer{margin: 0px; margin: auto; padding: 10px;
+ text-align: center;  background-color:#C884FF;
+ display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center}
+
+
+
+.titulo{width: 100%; font-size: 45px; font-family: impact;
+ font-weight: 700; height: 100px; text-align: center; 
+ background-color: #C884FF; color: black;  }
+/*CÓDIGO PARA CENTRAR LA CAJA*/
+
+
+
+.padre {
+    background-color: orange;
+    width: 100%;
+    /* height: 1200px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;  }
+
+
+.hijo{background-color: yellow; width: 250px; height: 250px; margin: 20px;
+ display: flex; align-items: center; justify-content: space-around;
+border-radius: 20px 20px 20px 20px;
+box-shadow: 10px 10px 5px 0px; rgba(0,0,0,0.67);}
+
+img{width:100%; max-width: 250px; height: 100%;
+	max-height: 250px; border-radius: 20px 20px 20px 20px;
+	-webkit-transition: all;0.5s ease 0.5s;
+}
+
+img:hover{transform:scale(1.3);
+-webkit.transform:scale(1.3);}
+div{overflow: hidden;}
+.redes{width: 20px;}
